@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #ee7c33;
+  --base: #ffffff;
+  --muted: #f8f8f8;
+  --off-white: #ecf3f1;
+  --dark: #020817;
+  --off-dark: #374151;
+}
+
+body {
+  color: var(--off-dark);
+  background: var(--base);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes scroll-left {
+  0% {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-left {
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -moz-animation: scroll-left 10s linear infinite;
+  -webkit-animation: scroll-left 10s linear infinite;
+  animation: scroll-left 10s linear infinite;
+}
