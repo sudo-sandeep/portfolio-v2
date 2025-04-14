@@ -48,9 +48,11 @@ const SIntro = () => {
           <span className="h-4 w-4 bg-primary block rounded-full"></span>
           Available For Hiring
         </p>
-        <button className="bg-primary text-white mt-4 px-10 py-2 rounded-xl flex items-center gap-1 hover:bg-white hover:text-primary border border-primary">
-          Download CV <MdFileDownload />
-        </button>
+        <a href="/SandeepResume.pdf" download>
+          <button className="bg-primary text-white mt-4 px-10 py-2 rounded-xl flex items-center gap-1 hover:bg-white hover:text-primary border border-primary">
+            Download CV <MdFileDownload />
+          </button>
+        </a>
       </div>
       <div
         className="bg-white py-6 rounded-xl px-6 overflow-hidden col-span-1 md:col-span-2 md:row-span-1"
