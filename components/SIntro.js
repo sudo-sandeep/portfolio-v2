@@ -60,7 +60,7 @@ const SIntro = () => {
         style={{ scrollMarginTop: "100px" }}
       >
         <div className="capitalize tracking-widest">
-          I'm a <b className="text-primary">Frontend Developer</b> with 2 years
+          I'm a <b className="text-primary">Frontend Developer</b> with 2.5+ years
           of experience, specializing in
           <b className="text-primary"> React</b>. With expertise in HTML, CSS,
           and <b className="text-primary">JavaScript</b>, I craft
