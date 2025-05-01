@@ -25,7 +25,7 @@ const SExperience = () => {
               <FaBookmark className="text-primary" />
             </span>
             <div className="flex flex-col gap-2">
-              <p className="text-sm">Sep 2022 - Sep 2023</p>
+              <p className="text-sm">Sep 2022 - May 2023</p>
               <h3 className="text-dark font-medium">Burgwalden Ltd.</h3>
               <p>React Developer</p>
               <p className="text-xs">Germany</p>
