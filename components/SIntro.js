@@ -15,7 +15,7 @@ const SIntro = () => {
               fill
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 244px"
               priority
-              objectFit="cover"
+              style={{objectFit:"cover"}}
               className="h-full w-full object-cover rounded-full"
             />
           </div>

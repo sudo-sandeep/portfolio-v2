@@ -24,6 +24,7 @@ const SProjects = () => {
               alt="Onboarding Website"
               fill
               priority
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className="h-full w-full object-cover hover:scale-105 transition-all duration-500"
             />
           </div>
@@ -63,6 +64,7 @@ const SProjects = () => {
               alt="Forafera Website"
               fill
               priority
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className="h-full w-full object-cover hover:scale-105 transition-all duration-500"
             />
           </div>
@@ -102,6 +104,7 @@ const SProjects = () => {
               alt="CRM Website"
               fill
               priority
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className="h-full w-full object-cover hover:scale-105 transition-all duration-500"
             />
           </div>
